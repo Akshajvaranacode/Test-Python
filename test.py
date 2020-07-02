@@ -1,5 +1,6 @@
-def square_number(num):
+def square_number(*num):
 	"""
 	returns square number 
 	"""
-	retuen num**2
+	for i in num:
+		return i**2

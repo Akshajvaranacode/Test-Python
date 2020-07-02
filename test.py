@@ -2,5 +2,6 @@ def square_number(*num):
 	"""
 	returns square number 
 	"""
-	for i in num:
-		return i**2
+	return [i**2 for i in num ]
+
+print(square_number(2,3,5,))
